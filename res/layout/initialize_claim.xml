@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_marginBottom="34dp"
+        android:layout_toRightOf="@+id/generateBlankClaim"
+        android:layout_toEndOf="@+id/generateBlankClaim"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_toRightOf="@+id/generateBlankClaim"
+        android:layout_toEndOf="@+id/generateBlankClaim"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="47dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/destination_txt" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/start_date" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText3"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/end_date" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/generateBlankClaim"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/generateBlankClaim"
+        android:layout_toEndOf="@+id/generateBlankClaim"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/generateBlankClaim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:text="@string/claim_continue_btn" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/claim_cancel_btn" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_alignEnd="@+id/textView1"
+        android:layout_marginTop="58dp"
+        android:text="@string/travel_reason_txt" />
+
+</RelativeLayout>
