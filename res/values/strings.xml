@@ -11,9 +11,39 @@
     <string name="end_date">End Date:</string>
     <string name="travel_reason_txt">Reason For Travel:</string>
     <string name="claim_continue_btn">Continue</string>
-    <string name="claim_cancel_btn">Cancel</string>
+    <string name="cancel_btn">Cancel</string>
     <string name="add_item_btn">Add (+)</string>
     <string name="remove_item_btn">Remove (-)</string>
+    <string name="title_activity_activity_claim_init">Express Report</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_claim_edit">Express Report</string>
+    <string name="save_btn">Save</string>
+    <string name="save_exit_btn">Save and Exit</string>
+
+    <string-array name="currency_array">
+        <item>Currency</item>
+        <item>CAD</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>INR</item>
+        <item>AUD</item>
+        <item>GBP</item>
+        <item>SGD</item>
+        <item>BRL</item>
+    </string-array>
+    
+    <string-array name="category_array">
+        <item>Choose a Category</item>
+	    <item>air fare</item>
+	    <item>ground transport</item>
+	    <item>vehicle rental</item>
+	    <item>fuel</item>
+	    <item>parking</item>
+	    <item>registration</item>
+	    <item>accomodations</item>
+	    <item>meal</item>
+	</string-array>
+	
     <string name="currency_cad">CAD:</string>
     <string name="currency_usd">USD:</string>
     <string name="currency_eur">EUR:</string>
@@ -22,8 +52,6 @@
     <string name="currency_gbp">GBP:</string>
     <string name="currency_sgd">SGD:</string>
     <string name="currency_brl">BRL:</string>
-    <string name="title_activity_activity_claim_init">Activity_claimInit</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_activity_claim_edit">Activity_claimEdit</string>
+    <string name="title_activity_activity_item_new">Express Report</string>
 
 </resources>

@@ -30,6 +30,10 @@
             android:name=".Activity_claimEdit"
             android:label="@string/title_activity_activity_claim_edit" >
         </activity>
+        <activity
+            android:name=".Activity_itemNew"
+            android:label="@string/title_activity_activity_item_new" >
+        </activity>
     </application>
 
 </manifest>
